@@ -27,13 +27,6 @@ code higlight
 
 ___
 
-
-<a href="https://www.youtube.com/watch?v=RavnmzMRrnw" target="_blank"><img width="246" class="style-scope yt-img-shadow" id="img" alt="" src="https://i.ytimg.com/vi/RavnmzMRrnw/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&amp;rs=AOn4CLAQsr6jqQuqYkn2TiCvOCPPX21EBw"></a>
-
-
-
-
-
 lala
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">

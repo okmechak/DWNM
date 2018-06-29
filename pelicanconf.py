@@ -11,7 +11,7 @@ INDEX_DESCRIPTION = 'Website and blog of Oleg Kmechak, a developer and musician 
 
 SIDEBAR_LINKS = [
     '<a href="/about/">About</a>',
-    '<a href="/archive/">Archive</a>',
+    '<a href="/archive/">Blog</a>',
 ]
 
 ICONS_PATH = 'images/icons'
@@ -21,11 +21,11 @@ SOCIAL_ICONS = [
     #('http://twitter.com/None', 'Twitter', 'fa-twitter'),
     ('https://github.com/ofcrashbash', 'GitHub', 'fa-github'),
     ('https://soundcloud.com/rain_must_fall', 'SoundCloud', 'fa-soundcloud'),
-    ('/atom.xml', 'Atom Feed', 'fa-rss'),
     ('https://www.facebook.com/profile.php?id=100005110871470', 'Facebook', 'fa-facebook'),
-    ('https://vk.com/rain_must_fall', 'Vkontakte', 'fa-vk'),
-    ('https://plus.google.com/+OlegFedyna', 'Google+', 'fa-google-plus'),
+    #('https://vk.com/rain_must_fall', 'Vkontakte', 'fa-vk'),
+    #('https://plus.google.com/+OlegFedyna', 'Google+', 'fa-google-plus'),
     ('http://www.youtube.com/c/OlegFedyna ','Youtube', 'fa-youtube')
+    #('/atom.xml', 'Atom Feed', 'fa-rss')
 ]
 
 THEME_COLOR = '#FF8000'
@@ -33,13 +33,14 @@ THEME_COLOR = '#FF8000'
 # Pelican settings
 RELATIVE_URLS = True
 SITEURL = 'http://coolkit.ua'
-#TIMEZONE = 'Poland/Warsaw' resolve this
+TIMEZONE = 'Europe/Kiev'
 DEFAULT_DATE = 'fs'
 DEFAULT_DATE_FORMAT = '%B %d, %Y'
 DEFAULT_PAGINATION = False
 SUMMARY_MAX_LENGTH = 70
 
-THEME = 'pneumatic'
+
+THEME = 'C:/Users/ofcra/Programming_Files/Pelican/themes/pneumatic_upd'
 
 ARTICLE_URL = '{date:%Y}/{date:%m}/{slug}/'
 ARTICLE_SAVE_AS = ARTICLE_URL + 'index.html'
