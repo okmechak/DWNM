@@ -1,6 +1,6 @@
 # Theme-specific settings
 SITENAME = 'Oleg Kmechak'
-DOMAIN = 'coolkit.ua'
+DOMAIN = 'doweneedmath.ua'
 BIO_TEXT = 'Developer and musician from Lviv.'
 FOOTER_TEXT = 'Powered by <a href="http://getpelican.com">Pelican</a> and <a href="http://pages.github.com">GitHub&nbsp;Pages</a>.'
 
@@ -32,7 +32,7 @@ THEME_COLOR = '#FF8000'
 
 # Pelican settings
 RELATIVE_URLS = True
-SITEURL = 'http://coolkit.ua'
+SITEURL = 'http://doweneedmath.ua'
 TIMEZONE = 'Europe/Kiev'
 DEFAULT_DATE = 'fs'
 DEFAULT_DATE_FORMAT = '%B %d, %Y'
@@ -88,7 +88,7 @@ extras = ['CNAME', 'favicon.ico', 'keybase.txt', 'robots.txt']
 EXTRA_PATH_METADATA = {'extra/%s' % file: {'path': file} for file in extras}
 
 PLUGIN_PATHS = ['C:/Users/ofcra/Programming_Files/Pelican/pelican-plugins']
-PLUGINS = ['assets', 'neighbors', 'render_math']
+PLUGINS = ['assets', 'neighbors', 'render_math', 'i18n_subsites']
 ASSET_SOURCE_PATHS = ['static']
 ASSET_CONFIG = [
     ('cache', False),
@@ -96,3 +96,27 @@ ASSET_CONFIG = [
     ('url_expire', False),
     ('versions', False),
 ]
+
+#multilanguage setup
+I18N_SUBSITES = {
+    'en': {'SITENAME': 'Oleg Kmechak',
+           'BIO_TEXT': 'Developer and musician from Lviv.'
+           'FOOTER_TEXT': 'Powered by <a href="http://getpelican.com">Pelican</a> and <a href="http://pages.github.com">GitHub&nbsp;Pages</a>.'
+           'SITE_AUTHOR': 'Oleg Kmechak'
+           'INDEX_DESCRIPTION': 'Website and blog of Oleg Kmechak, a developer and musician from Lviv, BC.'
+           'SIDEBAR_LINKS': [
+                '<a href="/about/">About</a>',
+                '<a href="/archive/">Blog</a>',]
+            },
+    'ua': {'SITENAME': 'Олег Кмечак',
+           'BIO_TEXT': 'Програміст і музикант зі Львова'
+           'FOOTER_TEXT': 'Побудоване на <a href="http://getpelican.com">Pelican</a> і <a href="http://pages.github.com">GitHub&nbsp;Pages</a>.'
+           'SITE_AUTHOR': 'Oleg Kmechak'
+           'INDEX_DESCRIPTION': 'Мій(Олег Кмечак) вебсайт і блог, програміст і музикант зі Львова.'
+           'SIDEBAR_LINKS': [
+                '<a href="/about/">Про автора і сайт</a>',
+                '<a href="/archive/">Блог</a>',]
+            }
+    }
+
+DEFAULT_LANG = 'en'
