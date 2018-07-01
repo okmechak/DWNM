@@ -99,24 +99,26 @@ ASSET_CONFIG = [
 
 #multilanguage setup
 I18N_SUBSITES = {
-    'en': {'SITENAME': 'Oleg Kmechak',
-           'BIO_TEXT': 'Developer and musician from Lviv.'
-           'FOOTER_TEXT': 'Powered by <a href="http://getpelican.com">Pelican</a> and <a href="http://pages.github.com">GitHub&nbsp;Pages</a>.'
-           'SITE_AUTHOR': 'Oleg Kmechak'
-           'INDEX_DESCRIPTION': 'Website and blog of Oleg Kmechak, a developer and musician from Lviv, BC.'
-           'SIDEBAR_LINKS': [
-                '<a href="/about/">About</a>',
-                '<a href="/archive/">Blog</a>',]
-            },
+    #'en': {'SITENAME': 'Oleg Kmechak',
+    #       'BIO_TEXT': 'Developer and musician from Sokal.',
+    #       'FOOTER_TEXT': 'Powered by <a href="http://getpelican.com">Pelican</a> and <a href="http://pages.github.com">GitHub&nbsp;Pages</a>.',
+    #       'SITE_AUTHOR': 'Oleg Kmechak',
+    #       'INDEX_DESCRIPTION': 'Website and blog of Oleg Kmechak, a developer and musician from Sokal, BC.',
+    #       'SIDEBAR_LINKS': [
+    #            '<a href="/about/">About</a>',
+    #            '<a href="/archive/">Blog</a>',]
+    #        },
     'ua': {'SITENAME': 'Олег Кмечак',
-           'BIO_TEXT': 'Програміст і музикант зі Львова'
-           'FOOTER_TEXT': 'Побудоване на <a href="http://getpelican.com">Pelican</a> і <a href="http://pages.github.com">GitHub&nbsp;Pages</a>.'
-           'SITE_AUTHOR': 'Oleg Kmechak'
-           'INDEX_DESCRIPTION': 'Мій(Олег Кмечак) вебсайт і блог, програміст і музикант зі Львова.'
+           'BIO_TEXT': 'Програміст і музикант зі Сокаля',
+           'FOOTER_TEXT': 'Побудоване на <a href="http://getpelican.com">Pelican</a> і <a href="http://pages.github.com">GitHub&nbsp;Pages</a>.',
+           'SITE_AUTHOR': 'Oleg Kmechak',
+           'INDEX_DESCRIPTION': 'Мій вебсайт і блог, програміст і музикант зі Cокаля.',
            'SIDEBAR_LINKS': [
-                '<a href="/about/">Про автора і сайт</a>',
+                '<a href="/about/">Про проект</a>',
                 '<a href="/archive/">Блог</a>',]
             }
     }
 
 DEFAULT_LANG = 'en'
+I18N_UNTRANSLATED_ARTICLES = 'keep'
+I18N_UNTRANSLATED_PAGES = 'keep'

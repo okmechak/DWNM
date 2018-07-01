@@ -1,11 +1,11 @@
-Title: "New attempt"
+Title: "Mark Down Experience"
 Date: 2018-06-24 19:59
-Modified: 2018-06-24 20:30
-Category: Mardown
+Modified: 2018-07-2 00:27
+Category: Miscelanous
 Tags: pelican, learning, markdown
 Slug: cool-cafe
 Authors: Oleg Kmechak
-Summary: Markdown metadata feature testing
+Summary: Markdown excessive feature testing
 lang: en
 
 West side is the best
