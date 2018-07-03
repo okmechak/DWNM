@@ -40,7 +40,7 @@ DEFAULT_PAGINATION = False
 SUMMARY_MAX_LENGTH = 70
 
 
-THEME = 'C:/Users/ofcra/Programming_Files/Pelican/themes/pneumatic_upd'
+THEME = 'pneumatic_upd'
 
 ARTICLE_URL = '{date:%Y}/{date:%m}/{slug}/'
 ARTICLE_SAVE_AS = ARTICLE_URL + 'index.html'
@@ -99,15 +99,6 @@ ASSET_CONFIG = [
 
 #multilanguage setup
 I18N_SUBSITES = {
-    #'en': {'SITENAME': 'Oleg Kmechak',
-    #       'BIO_TEXT': 'Developer and musician from Sokal.',
-    #       'FOOTER_TEXT': 'Powered by <a href="http://getpelican.com">Pelican</a> and <a href="http://pages.github.com">GitHub&nbsp;Pages</a>.',
-    #       'SITE_AUTHOR': 'Oleg Kmechak',
-    #       'INDEX_DESCRIPTION': 'Website and blog of Oleg Kmechak, a developer and musician from Sokal, BC.',
-    #       'SIDEBAR_LINKS': [
-    #            '<a href="/about/">About</a>',
-    #            '<a href="/archive/">Blog</a>',]
-    #        },
     'ua': {'SITENAME': 'Олег Кмечак',
            'BIO_TEXT': 'Програміст і музикант зі Сокаля',
            'FOOTER_TEXT': 'Побудоване на <a href="http://getpelican.com">Pelican</a> і <a href="http://pages.github.com">GitHub&nbsp;Pages</a>.',
@@ -122,3 +113,19 @@ I18N_SUBSITES = {
 DEFAULT_LANG = 'en'
 I18N_UNTRANSLATED_ARTICLES = 'keep'
 I18N_UNTRANSLATED_PAGES = 'keep'
+
+
+languages_lookup = {
+    'ua': 'Українська',
+    'en': 'English',
+    }
+
+def lookup_lang_name(lang_code):
+    return languages_lookup[lang_code]
+
+JINJA_FILTERS = {
+    'lookup_lang_name': lookup_lang_name
+    }
+
+
+
