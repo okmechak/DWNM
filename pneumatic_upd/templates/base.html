@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Basic Metas -->
+	<meta charset="utf-8">
+	<title>{% block title %}{% endblock %}</title>
+	<meta name="description" content="{% block description %}{% endblock %}">
+	<meta name="author" content="{{ SITE_AUTHOR }}">
+	<link rel="author" href="{{ GOOGLE_PLUS_URL }}"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	{% block meta %}{% endblock %}
+
+	<!-- Stylesheets and Web Fonts -->
+	{% assets filters="scss, cssmin", output="style.min.css", "pneumatic_upd.scss", "pygments.css" %}
+	<link href="/{{ ASSET_URL }}" rel="stylesheet">
+	{% endassets %}
+	{% if GOOGLE_FONTS %}
+	<link href="https://fonts.googleapis.com/css?family={{ GOOGLE_FONTS | join('|') | replace(' ', '+') }}" rel="stylesheet" type="text/css">
+	{% endif %}
+	{% if SOCIAL_ICONS %}
+	{% if FA_EMBED_CODE %}
+	<link rel="stylesheet" href="https://use.fontawesome.com/{{ FA_EMBED_CODE }}.css">
+	{% else %}
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	{% endif %}
+	{% endif %}
+
+	<meta name="theme-color" content="{{ THEME_COLOR }}">
+
+	<meta name="msapplication-TileColor" content="{{ THEME_COLOR }}">
+	<meta name="msapplication-TileImage" content="/{{ ICONS_PATH }}/mstile-144x144.png">
+
+</head>
+
+<body>
+	<div class="container">
+		<aside>
+			<a href="/"><img id="avatar" alt="Site Avatar" src="/{{ ICONS_PATH }}/avatar.png"></a>
+			<div id="name"><a href="/">{{ SITENAME }}</a></div>
+			<div id="bio">{{ BIO_TEXT }}</div>
+
+			{% if SIDEBAR_LINKS %}
+			<div id="sidebar-links">
+				{{ SIDEBAR_LINKS | join("&nbsp;&nbsp;|&nbsp;&nbsp;") }}
+			</div>
+			{% endif %}
+
+			<!--<div id="language-links"></div>
+			{% for lang, siteurl in lang_siteurls.items() %}
+		    	<a href="{{ siteurl }}">{{ lang | lookup_lang_name}} </a>
+			{% endfor %}
+			</div> -->
+
+			{% if SOCIAL_ICONS %}
+			<div id="social">
+				{% for link, title, icon in SOCIAL_ICONS %}
+				<a href="{{ link }}" title="{{ title }}" class="icon fa {{ icon }}"></a>
+				{% endfor %}
+			</div>
+			{% endif %}
+
+			<hr id="sidebar-divider">
+		</aside>
+
+		<article>
+			{% block content %}{% endblock %}
+			<hr>
+		</article>
+
+		<footer>
+			<p>{{ FOOTER_TEXT }}</p>
+		</footer>
+	</div>
+
+	{% if GOOGLE_ANALYTICS %}
+	<!-- Google Analytics -->
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		ga('create', '{{ GOOGLE_ANALYTICS }}', '{{ DOMAIN }}');
+		ga('send', 'pageview');
+	</script>
+	{% endif %}
+</body>
+</html>
