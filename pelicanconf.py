@@ -11,7 +11,7 @@ INDEX_DESCRIPTION = 'Website and blog of Oleg Kmechak, a developer and musician 
 
 SIDEBAR_LINKS = [
     '<a href="/about/">About</a>',
-    '<a href="/archive/">Blog</a>',
+    '<a href="/archive/">Blog</a>'
 ]
 
 ICONS_PATH = 'images/icons'
@@ -116,8 +116,8 @@ I18N_UNTRANSLATED_PAGES = 'keep'
 
 
 languages_lookup = {
-    'ua': 'Українська',
-    'en': 'English',
+    'ua': 'Укр',
+    'en': 'En',
     }
 
 def lookup_lang_name(lang_code):
@@ -126,6 +126,3 @@ def lookup_lang_name(lang_code):
 JINJA_FILTERS = {
     'lookup_lang_name': lookup_lang_name
     }
-
-
-
