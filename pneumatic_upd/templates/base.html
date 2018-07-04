@@ -36,8 +36,8 @@
 <body>
 	<div class="container">
 		<aside>
-			<a href="/"><img id="avatar" alt="Site Avatar" src="/{{ ICONS_PATH }}/avatar.png"></a>
-			<div id="name"><a href="/">{{ SITENAME }}</a></div>
+			<img id="avatar" alt="Site Avatar" src="/{{ ICONS_PATH }}/avatar.png">
+			<div id="name">{{ SITENAME }}</div>
 			<div id="bio">{{ BIO_TEXT }}</div>
 
 			{% if SIDEBAR_LINKS %}
@@ -45,11 +45,9 @@
 				{{ SIDEBAR_LINKS | join("&nbsp;&nbsp;|&nbsp;&nbsp;") }}
 			</div>
 			{% endif %}
-
+			
 			<div id="language-links">
-			{% for lang, siteurl in lang_siteurls.items() %}
-		    	<a href="{{ siteurl }}">{{ lang | lookup_lang_name}} </a>
-			{% endfor %}
+				<a href="/"> {{EN_LINK_NAME}} </a> <a href="/ua"> {{UA_LINK_NAME}} </a>
 			</div>
 
 			{% if SOCIAL_ICONS %}

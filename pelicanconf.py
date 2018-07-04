@@ -114,6 +114,8 @@ DEFAULT_LANG = 'en'
 I18N_UNTRANSLATED_ARTICLES = 'keep'
 I18N_UNTRANSLATED_PAGES = 'keep'
 
+UA_LINK_NAME = 'Укр'
+EN_LINK_NAME = 'En'
 
 languages_lookup = {
     'ua': 'Укр',
