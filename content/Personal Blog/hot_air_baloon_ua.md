@@ -1,7 +1,7 @@
 Title: Повітряна Куля (Sunday)
 Date: 2018-07-06 19:59
 Modified: 2018-07-06 20:30
-Category: Personal
+Category: Персональний Блог
 Tags: fly, history
 Slug: hot-air-baloon
 Authors: Oleg Kmechak

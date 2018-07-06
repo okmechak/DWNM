@@ -1,7 +1,7 @@
 Title: New attempt
 Date: 2018-06-24 19:59
 Modified: 2018-06-24 20:30
-Category: Mardown
+Category: Різне
 Tags: pelican, learning, markdown
 Slug: cool-cafe
 Authors: Oleg Kmechak

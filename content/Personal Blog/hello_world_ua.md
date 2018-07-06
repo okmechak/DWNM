@@ -1,7 +1,7 @@
 Title: Привіт, Світе!
 Date: 2018-07-06 19:59
 Modified: 2018-07-06 20:30
-Category: Personal
+Category: Персональний Блог
 Tags: hello world, history
 Slug: hello-world
 Authors: Oleg Kmechak

@@ -1,7 +1,7 @@
 Title: Про мене
 Date: 2018-07-06 15:52
 Modified: 2018-07-06 15:52
-Category: Miscelanous
+Category: Інформація про сайт
 Slug: about-me
 Lang: ua
 
