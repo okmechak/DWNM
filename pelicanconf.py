@@ -1,17 +1,17 @@
 # Theme-specific settings
 SITENAME = 'Oleg Kmechak'
 DOMAIN = 'doweneedmath.ua'
-BIO_TEXT = 'Developer and musician from Lviv.'
+BIO_TEXT = 'Developer and musician from Sokal.'
 FOOTER_TEXT = 'Powered by <a href="http://getpelican.com">Pelican</a> and <a href="http://pages.github.com">GitHub&nbsp;Pages</a>.'
 
 SITE_AUTHOR = 'Oleg Kmechak'
 #TWITTER_USERNAME = '@none'
 GOOGLE_PLUS_URL = 'https://plus.google.com/+OlegFedyna'
-INDEX_DESCRIPTION = 'Website and blog of Oleg Kmechak, a developer and musician from Lviv, BC.'
+INDEX_DESCRIPTION = 'Website and blog of Oleg Kmechak, a developer and musician from Sokal, BC.'
 
 SIDEBAR_LINKS = [
     '<a href="/about-site/">About</a>',
-    '<a href="/archive/">Blog</a>'
+    '<a href="/blogs.html">Blog</a>'
 ]
 
 ICONS_PATH = 'images/icons'
@@ -32,7 +32,7 @@ THEME_COLOR = '#FF8000'
 
 # Pelican settings
 RELATIVE_URLS = True
-SITEURL = 'http://doweneedmath.ua'
+SITEURL = 'http://doweneedmath.pp.ua'
 TIMEZONE = 'Europe/Kiev'
 DEFAULT_DATE = 'fs'
 DEFAULT_DATE_FORMAT = '%B %d, %Y'
@@ -42,18 +42,19 @@ SUMMARY_MAX_LENGTH = 70
 
 THEME = 'pneumatic_upd'
 
-ARTICLE_URL = '{date:%Y}/{date:%m}/{slug}/'
+ARTICLE_URL = '{category}/{slug}/'
 ARTICLE_SAVE_AS = ARTICLE_URL + 'index.html'
 
 PAGE_URL = '{slug}/'
 PAGE_SAVE_AS = PAGE_URL + 'index.html'
 
-ARCHIVES_SAVE_AS = 'archive/index.html'
-YEAR_ARCHIVE_SAVE_AS = '{date:%Y}/index.html'
-MONTH_ARCHIVE_SAVE_AS = '{date:%Y}/{date:%m}/index.html'
+#TODO resolve this: do i need this archives?
+#ARCHIVES_SAVE_AS = 'blog/index.html'
+#YEAR_ARCHIVE_SAVE_AS = '{date:%Y}/index.html'
+#MONTH_ARCHIVE_SAVE_AS = '{date:%Y}/{date:%m}/index.html'
 
 # Disable authors, categories, tags, and category pages
-DIRECT_TEMPLATES = ['index', 'archives']
+DIRECT_TEMPLATES = ['index', 'blogs']
 CATEGORY_SAVE_AS = ''
 
 # Disable Atom feed generation
@@ -103,8 +104,8 @@ I18N_SUBSITES = {
            'SITE_AUTHOR': 'Oleg Kmechak',
            'INDEX_DESCRIPTION': 'Мій вебсайт і блог, програміст і музикант зі Cокаля.',
            'SIDEBAR_LINKS': [
-                '<a href="about-site/">Про проект</a>',
-                '<a href="archive/">Блог</a>',]
+                '<a href="/ua/about-site/">Про проект</a>',
+                '<a href="/ua/blogs.html">Блог</a>',]
             }
     }
 
