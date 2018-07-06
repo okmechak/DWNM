@@ -10,7 +10,7 @@ GOOGLE_PLUS_URL = 'https://plus.google.com/+OlegFedyna'
 INDEX_DESCRIPTION = 'Website and blog of Oleg Kmechak, a developer and musician from Lviv, BC.'
 
 SIDEBAR_LINKS = [
-    '<a href="/about/">About</a>',
+    '<a href="/about-site/">About</a>',
     '<a href="/archive/">Blog</a>'
 ]
 
@@ -84,8 +84,6 @@ TEMPLATE_PAGES = {page: page for page in templates}
 STATIC_PATHS = ['images', 'uploads', 'extra']
 IGNORE_FILES = ['.DS_Store', 'pneumatic.scss', 'pygments.css']
 
-extras = ['CNAME', 'favicon.ico', 'keybase.txt', 'robots.txt']
-EXTRA_PATH_METADATA = {'extra/%s' % file: {'path': file} for file in extras}
 
 PLUGIN_PATHS = ['C:/Users/ofcra/Programming_Files/Pelican/pelican-plugins']
 PLUGINS = ['assets', 'neighbors', 'render_math', 'i18n_subsites']
@@ -105,8 +103,8 @@ I18N_SUBSITES = {
            'SITE_AUTHOR': 'Oleg Kmechak',
            'INDEX_DESCRIPTION': 'Мій вебсайт і блог, програміст і музикант зі Cокаля.',
            'SIDEBAR_LINKS': [
-                '<a href="/about/">Про проект</a>',
-                '<a href="/archive/">Блог</a>',]
+                '<a href="about-site/">Про проект</a>',
+                '<a href="archive/">Блог</a>',]
             }
     }
 

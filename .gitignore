@@ -2,3 +2,4 @@ output
 *.code-workspace
 __pycache__
 .git
+*.vbs
