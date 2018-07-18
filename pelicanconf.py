@@ -85,8 +85,7 @@ TEMPLATE_PAGES = {page: page for page in templates}
 STATIC_PATHS = ['Images', 'uploads', 'extra', 'Images/hello_world']
 IGNORE_FILES = ['.DS_Store', 'pneumatic.scss', 'pygments.css']
 
-
-PLUGIN_PATHS = ['C:/Users/ofcra/Programming_Files/Pelican/pelican-plugins']
+PLUGIN_PATHS = ['C:/Users/ofcra/Programming_Files_And_Scripts/Pelican/pelican-plugins']
 PLUGINS = ['assets', 'neighbors', 'render_math', 'i18n_subsites']
 ASSET_SOURCE_PATHS = ['static']
 ASSET_CONFIG = [
