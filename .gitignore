@@ -1,5 +1,7 @@
 output
+preparation
 *.code-workspace
 __pycache__
 .git
 *.vbs
+name.htaccess
