@@ -10,8 +10,9 @@ GOOGLE_PLUS_URL = 'https://plus.google.com/+OlegFedyna'
 INDEX_DESCRIPTION = 'Website and blog of Oleg Kmechak, a developer and musician from Sokal, BC.'
 
 SIDEBAR_LINKS = [
-    '<a href="/about-site/">About</a>',
-    '<a href="/blogs.html">Blog</a>'
+    '<a href="category/about.html">About</a>',
+    '<a href="categories.html">Categories</a>',
+    '<a href="archives.html">Archive</a>'
 ]
 
 ICONS_PATH = 'images/icons'
@@ -42,11 +43,11 @@ SUMMARY_MAX_LENGTH = 70
 
 THEME = 'pneumatic_upd'
 
-ARTICLE_URL = '{category}/{slug}/'
-ARTICLE_SAVE_AS = ARTICLE_URL + 'index.html'
+#ARTICLE_URL = '/{category}/{slug}/'
+#ARTICLE_SAVE_AS = 'category/{slug}/' + 'index.html'
 
-PAGE_URL = '{slug}/'
-PAGE_SAVE_AS = PAGE_URL + 'index.html'
+#PAGE_URL = '{slug}/'
+#PAGE_SAVE_AS = PAGE_URL + 'index.html'
 
 #TODO resolve this: do i need this archives?
 #ARCHIVES_SAVE_AS = 'blog/index.html'
@@ -54,8 +55,8 @@ PAGE_SAVE_AS = PAGE_URL + 'index.html'
 #MONTH_ARCHIVE_SAVE_AS = '{date:%Y}/{date:%m}/index.html'
 
 # Disable authors, categories, tags, and category pages
-DIRECT_TEMPLATES = ['index', 'blogs']
-CATEGORY_SAVE_AS = ''
+#DIRECT_TEMPLATES = ['index', 'blogs']
+#CATEGORY_SAVE_AS = ''
 
 # Disable Atom feed generation
 FEED_ATOM = 'atom.xml'
@@ -79,8 +80,8 @@ DELETE_OUTPUT_DIRECTORY = True
 OUTPUT_PATH = 'develop'
 PATH = 'content'
 
-templates = ['404.html']
-TEMPLATE_PAGES = {page: page for page in templates}
+#templates = ['404.html']
+#TEMPLATE_PAGES = {page: page for page in templates}
 
 STATIC_PATHS = ['Images', 'uploads', 'extra', 'Images/hello_world']
 IGNORE_FILES = ['.DS_Store', 'pneumatic.scss', 'pygments.css']
@@ -103,8 +104,10 @@ I18N_SUBSITES = {
            'SITE_AUTHOR': 'Oleg Kmechak',
            'INDEX_DESCRIPTION': 'Мій вебсайт і блог, програміст і музикант зі Cокаля.',
            'SIDEBAR_LINKS': [
-                '<a href="/ua/about-site/">Про проект</a>',
-                '<a href="/ua/blogs.html">Блог</a>',]
+                '<a href="category/about.html">Про</a>',
+                '<a href="categories.html">Блог</a>',
+                '<a href="archives.html">Архів</a>'
+                ]
             }
     }
 
