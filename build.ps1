@@ -1,4 +1,4 @@
-make clean
-make clean
-make html
+
+Remove-Item -r out
+pelican content
 Start-Process -FilePath "powershell" -ArgumentList "-File runserver.ps1"

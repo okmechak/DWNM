@@ -1,4 +1,5 @@
 output
+out
 preparation
 *.code-workspace
 __pycache__

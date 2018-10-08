@@ -6,6 +6,6 @@ Tags: fly, history
 Slug: hot-air-baloon
 Authors: Oleg Kmechak
 Summary: History about unfinihed dream to get under clouds
-lang: en
+Lang: en
 
 Hot Air Baloon. TODO describe the story
