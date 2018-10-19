@@ -2,10 +2,12 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 import os
+import os.path
+
 
 AUTHOR = 'Oleg Kmechak'
 SITENAME = 'Oleg Kmechak'
-SITEURL = '.'
+SITEURL = ''
 
 # all defaults to True.
 DISPLAY_HEADER = True
@@ -50,7 +52,7 @@ else:
 
 
 
-THEME = PELICAN_DIR + '\\blue-penguin' #medius, waterspill, blue-penguin
+THEME = os.path.join(PELICAN_DIR, 'blue-penguin') #medius, waterspill, blue-penguin
 print(THEME)
 PATH = 'content'
 
@@ -80,9 +82,9 @@ RELATIVE_URLS = True
 
 
 
-PLUGIN_PATHS = [PELICAN_DIR + '\\pelican-plugins']
+PLUGIN_PATHS = [os.path.join(PELICAN_DIR, 'pelican-plugins')]
 print(PLUGIN_PATHS)
-PLUGINS = ['render_math',  'assets']#'i18n_subsites' FIXME
+PLUGINS = ['render_math', 'assets']#'i18n_subsites' FIXME
 
 #multilanguage setup
 DEFAULT_LANG = 'en'
@@ -94,14 +96,5 @@ DISPLAY_PAGES_ON_MENU = True
 
 SUMMARY_MAX_LENGTH = 40
 
-ASSET_SOURCE_PATHS = ['static']
-ASSET_CONFIG = [
-    ('cache', False),
-    ('manifest', False),
-    ('url_expire', False),
-    ('versions', False),
-]
-
 CACHE_CONTENT = False
 DELETE_OUTPUT_DIRECTORY = True
-THEME_STATIC_DIR = 'theme'
