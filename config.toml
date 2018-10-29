@@ -71,7 +71,7 @@ copyright = "© 2018 Copyright Text"
 
     # Footer menu 2
     [[languages.ua.menu.footer2]]
-        url = "/"
+        url = "/ua/"
         name = "Домашня сторінка"
         weight = 1
 
