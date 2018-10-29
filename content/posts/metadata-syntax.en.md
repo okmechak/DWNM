@@ -1,12 +1,15 @@
+---
 Title: "Mark Down Experience"
-Date: 2018-06-24 19:59
-Modified: 2018-06-24 20:30
+Date: 2018-06-24
+Modified: 2018-06-24
 Category: Miscelanous
 Tags: pelican, learning, markdown
 Slug: cool-cafe
 Authors: Oleg Kmechak
 Summary: Markdown excessive feature testing
 lang: en
+draft : true  
+---
 
 West side is the best
 

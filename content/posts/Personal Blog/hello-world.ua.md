@@ -1,12 +1,15 @@
+---
 Title: Привіт, Світе!  
-Date: 2018-07-06 19:59  
-Modified: 2018-07-06 20:30  
+Date: 2018-07-06
+Modified: 2018-07-06
 Category: Персональний Блог  
 Tags: hello world, history  
 Slug: hello-world  
 Authors: Oleg Kmechak  
 Summary: Історія про те як я почав програмувати
 lang: ua  
+draft : true  
+---
 
 # Замість вступу
 

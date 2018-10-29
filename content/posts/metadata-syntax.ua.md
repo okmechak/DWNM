@@ -1,14 +1,17 @@
-Title: New attempt
-Date: 2018-06-24 19:59
-Modified: 2018-06-24 20:30
-Category: Різне
-Tags: pelican, learning, markdown
-Slug: cool-cafe
-Authors: Oleg Kmechak
-Summary: Markdown metadata feature testing
+---
+title: Нова спроба
+date: 2018-06-24
+modified: 2018-06-24
+category: Різне
+tags: pelican, learning, markdown
+slug: cool-cafe
+authors: Oleg Kmechak
+summary: Markdown metadata feature testing
 lang: ua
+draft : true  
+---
 
-Західна сторона є найкраща!
+### Західна сторона є найкраща!
 
 
 There are two ways to specify the identifier:

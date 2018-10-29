@@ -1,8 +1,11 @@
+---
 Title: About Site
-Date: 2018-07-06 15:52
-Modified: 2018-07-06 15:52
+Date: 2018-07-06
+Modified: 2018-07-06
 Category: About
 Slug: about-site
 Lang: en
+draft : true  
+---
 
 Just translate unkrainian version

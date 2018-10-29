@@ -1,9 +1,13 @@
+---
 Title: About Me
-Date: 2018-07-06 15:52
-Modified: 2018-07-06 15:52
+Date: 2018-07-06
+Modified: 2018-07-06
 Category: About
 Slug: about-me
 Lang: en
+draft : true  
+
+---
 
 I'm a software developer and physician from [Sokal, Ukraine](https://en.wikipedia.org/wiki/Sokal). I'm an honours Bachelor undergraduate at the [University of Lviv](http://www.lnu.edu.ua/en/) with an interest in Physics and Computer Science. I am currently a student at [Warsaw University](https://www.uw.edu.pl/); previously I worked at [Edvantis](https://www.edvantis.com/) and [Global Logic](https://www.globallogic.com/). Feel free to get in touch via email or social networks!
 
