@@ -2,6 +2,7 @@ baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "DWNM"
 theme = "material-blog"
+publishDir = "okmechak-github-io"
 
 #appear in the footer
 copyright = "© 2018 Copyright Text"
