@@ -1,7 +1,7 @@
 echo "Deployment to GitHUB"
 
 # Build the project
-hugo -D -t "material-blog"
+hugo --disableLiveReload
 cd okmechak-github-io
 git add .
 git commit -m "rebuild site `date` "
