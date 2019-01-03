@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DWNM</title>
+    <link>https://okmechak.github.io/ua/</link>
+    <description>Recent content on DWNM</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© 2018 Copyright Text</copyright>
+    
+	<atom:link href="https://okmechak.github.io/ua/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>
