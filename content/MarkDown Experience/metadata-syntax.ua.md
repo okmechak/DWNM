@@ -117,7 +117,7 @@ Simply put your text into next quotes &#96; `<addr>` &#96;
 
 # Syntax Highlight
 ---
-
+TODO: how to fully higlight syntax?  
 &#96;&#96;&#96;`javascript`  
 `function fancyAlert(arg) {`  
     `if(arg) {`  
@@ -143,6 +143,8 @@ def foo():
 ```
 # Task List
 ---
+
+TODO: how to write todos lists?  
 
 For some reason don't work
 
@@ -184,6 +186,12 @@ enableEmoji = true
 
 after that you can use standard codes of smiley &#58;smile&#58; will give:
 :smile:
+
+# Mathematic formulas
+---
+
+TODO: figure out how to write mathematical formulas  
+
 
 # HTML addons
 ---
