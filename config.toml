@@ -2,7 +2,7 @@ baseURL = "https://okmechak.github.io/"
 languageCode = "en-us"
 title = "DWNM"
 theme = "material-blog"
-publishDir = "okmechak-github-io"
+publishDir = "okmechak.github.io"
 enableEmoji = true
 #appear in the footer
 copyright = "© 2018 Copyright Text"
