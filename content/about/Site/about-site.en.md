@@ -6,6 +6,7 @@ Category: About
 Slug: about-site
 Lang: en
 draft : true  
+menu : "main"
 ---
 
 Just translate unkrainian version
