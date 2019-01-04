@@ -27,6 +27,11 @@ lang: ua
 draft : true  
 ---
 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.6.0/katex.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.6.0/katex.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.6.0/contrib/auto-render.min.js"></script>
+
+
 # Headers
 ---
 
@@ -190,7 +195,13 @@ after that you can use standard codes of smiley &#58;smile&#58; will give:
 # Mathematic formulas
 ---
 
-TODO: figure out how to write mathematical formulas  
+[Good article about Tex in hugo](http://www.latkin.org/blog/2016/08/07/better-tex-math-typesetting-in-hugo/)
+
+Here's sum inline math: 
+{{< tex "\sum_{n=1}^{\infty} 2^{-n} = 1" >}}.
+
+Display mode math looks like
+{{< tex display="\int \frac{1}{x} dx = \ln |x|" >}}
 
 
 # HTML addons
@@ -200,6 +211,4 @@ TODO: figure out how to write mathematical formulas
     <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
 </div>   
 
-
-
-lala
+<script>renderMathInElement(document.body);</script>
