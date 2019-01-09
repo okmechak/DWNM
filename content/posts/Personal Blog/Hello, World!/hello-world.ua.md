@@ -8,33 +8,39 @@ Slug: hello-world
 Authors: Oleg Kmechak  
 Summary: Історія про те як я почав програмувати
 lang: ua  
+#menu:
+#  main:
+#    parent: Блог
 draft : true  
 ---
 
-# Замість вступу
+<!---
+your comment goes here
+and here
+-->
+
+
+### Замість вступу
 
 Коли інформація поширювалася з допомогою СD-Rom(ів), телефони підтримували 8 звукову поліфонію, а кожен кілобайт був на вагу золота. Коли тільки появлялися CD-Mp3 плеєри. А по домах ставало модним мати DVD-плеєр. Саме в цей час мої заробітчани батьки купили досить таки в диковинку ноут [Samsung R40](http://www.notebookreview.com/notebookreview/samsung-r40-review-pics-specs/).    
 
 
 Наскільки був радий словами не описати... Але одна з перших важкостей - це відкрити його, адже екран досить туго відхилявся і було не докінця ясно, чи це так має бути, чи ні. Це зайняло деякий часу. І все ж коли врешті відкрив його і включив, то не побачив всіма знайомої [заставки Windows XP](https://uk.wikipedia.org/wiki/Bliss) зі стандартною синьою темою, а лише чорну тему із яскравими і контрастними кольорами. Як пізніше виявилося - це, о чудо, був Windows XP, лише із включеною темою *High Contrast #2*.
 
-[comment]: <> (![standard theme]({filename}/Images/xp_desktop_400_300.jpg)
-[comment]: <> (![High contrast theme]({filename}/Images/xp_high_contr_desktop_480_300.jpg)
-
-<table style="width:100%">
+<table>
   <tr>
-    <th><img alt="Samsung R40" src="../../../Images/hello_world/samsung_r40.png"></th>
-    <th><img alt="standard theme" src="../../../Images/hello_world/xp_desktop_400_300.jpg"></th>
-    <th><img alt="High contrast theme" src="../../../Images/hello_world/xp_high_contr_desktop_480_300.jpg"></th> 
+    <th><img width="100%" alt="Samsung R40" src="/samsung_r40.png"></th>
+    <th><img width="100%" alt="standard theme" src="/xp_desktop_400_300.jpg"></th>
+    <th><img width="100%" alt="High contrast theme" src="/xp_high_contr_desktop_480_300.jpg"></th> 
   </tr>
 </table> 
 
 
-## Доступ до інтернету
+### Доступ до інтернету
 
 Ще так до слова. Тоді мало в кого був інтернет в мому місті. Тож *загуглити*, щоб щось довідатися - не варіант. І наприклад я мав доступ до інтернету лише в [дорослій бібліотеці](http://www.library.sokal.lviv.ua/) куди із талоном за 2 грн, можна було прийти раз в тиждень на 2 години, щоб попрацювати із комп'ютером, який має вихід в інтернет. А в комп'ютерному залі висів великий плакат, на якому писало, що дана ініціатива із залою з комп'ютерами підключеними до Інтернету ішла від Уряду США.
 
-#### ось такий старенький будинок:
+###### ось такий старенький будинок:
 
 <iframe src="https://www.google.com/maps/embed?pb=!4v1531748820338!6m8!1m7!1sLdHNCWpvDVV-kBDUTcMDlA!2m2!1d50.48165062316313!2d24.27654810146481!3f279.04948612414716!4f6.65958874650083!5f1.4899716704966028" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 
@@ -43,12 +49,12 @@ draft : true
 
 | | |
 |:--|---:|
-|Nero|<img alt="standard theme" height="25" width="25" src="../../../Images/hello_world/nero_256.png">|
-|Winamp 5.0|<img alt="standard theme" height="25" width="25" src="../../../Images/hello_world/winamp_256.png">|
-|Adobe Photoshop|<img alt="standard theme" height="25" width="25" src="../../../Images/hello_world/photoshop_256.png">|
-|Virtual Dub|<img alt="standard theme" height="25" width="25" src="../../../Images/hello_world/virtualdub_256.png">| 
-|Daemon Tools|<img alt="standard theme" height="25" width="25" src="../../../Images/hello_world/daemon_256.png">|
-|GTA San Andreas|<img alt="standard theme" height="25" width="25" src="../../../Images/hello_world/gta_sa_256.png">|
+|Nero|<img alt="standard theme" height="25" width="25" src="/nero_256.png">|
+|Winamp 5.0|<img alt="standard theme" height="25" width="25" src="/winamp_256.png">|
+|Adobe Photoshop|<img alt="standard theme" height="25" width="25" src="/photoshop_256.png">|
+|Virtual Dub|<img alt="standard theme" height="25" width="25" src="/virtualdub_256.png">| 
+|Daemon Tools|<img alt="standard theme" height="25" width="25" src="/daemon_256.png">|
+|GTA San Andreas|<img alt="standard theme" height="25" width="25" src="/gta_sa_256.png">|
 
 
 І також музика, короткі смішні відео і мультфільми, наприклад [Ice Age](https://www.youtube.com/watch?v=ZorjSyK9wKE).
@@ -60,7 +66,7 @@ draft : true
 
 З іншої сторони в Сокалі були популярні відеозйомки весілль і інших подій. І власне ці люди і використовували [Sony Vegas](https://uk.wikipedia.org/wiki/Vegas_Pro) - професійний відеоредактор.
 
-<img alt="Sony Vegas" src="../../../Images/hello_world/sony_vegas.jpg">
+<img width = "100%" alt="Sony Vegas" src="/sony_vegas.jpg">
 
 Sony Vegas мав багато налаштуваннь. І чим ~~далі в ліс тим більше дров~~ довше працюєш із цією програмою, очевидно, починаєш краще її розуміти, призначення різноманітних перемикачів, логіку, структуру, і якими інструментами краще досягнути певної цілі чи ефектів. І деякі опції\налаштування, які до цього ігнорувалися через незнання, з часом отримують розуміння. В певний момент і визріло питання: а хто і як зробив цю програму..?
 
@@ -69,15 +75,15 @@ Sony Vegas мав багато налаштуваннь. І чим ~~далі в
 Дуже популярний в певний момент музичний плеєром, який мав неймовірно багато найрізноманітніших опцій. І в буквальному сенсі був витвором мистецтва, адже окрім багатофункціональності, мав дуже багато тем(скінів) і підтримку найрізноманітніших візуалізацій: 
 
 #### Теми
-<img height = "150" alt="Winamp Skins" src="../../../Images/hello_world/winamp_skins_small.png">
+<img height = "150" alt="Winamp Skins" src="/winamp_skins_small.png">
 
 #### Візуалізації
 
-<img height = "100" alt="Winamp Visualisations" src="../../../Images/hello_world/winamp_vis_small.png">
+<img height = "100" alt="Winamp Visualisations" src="/winamp_vis_small.png">
 
 Власне, візуалізації теж мали багато налаштуваннь. А одна із них мала, ще більш *специфічне налаштування*:
 
-<img height = "300" alt="AVS Code" src="../../../Images/hello_world/avs_code.jpg">
+<img height = "300" alt="AVS Code" src="/avs_code.jpg">
 
 Це і був *програмний код* або вірніше *скрипт*, з яким вперше довелося побачитися! Winamp і візуальні пакети, які він в собі містить, заслуговують на окрему статтю.
 

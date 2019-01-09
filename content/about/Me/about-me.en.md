@@ -6,6 +6,8 @@ Category: About
 Slug: about-me
 Lang: en
 draft : true  
+menu: "main"
+cover_image: "/avatar.png"
 
 ---
 

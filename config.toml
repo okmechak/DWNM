@@ -2,8 +2,8 @@ baseURL = "https://okmechak.github.io/"
 languageCode = "en-us"
 title = "DWNM"
 theme = "ticky-theme"
-publishDir = "okmechak-github-io"
-
+publishDir = "okmechak.github.io"
+enableEmoji = true
 #appear in the footer
 copyright = "© 2018 Copyright Text"
 
@@ -12,10 +12,10 @@ copyright = "© 2018 Copyright Text"
     languageName = "English"
     
     # Main menu
-    [[languages.en.menu.main]]
-        url = "/"
-        name = "Home"
-        weight = 1
+    #[[languages.en.menu.main]]
+    #    url = "/"
+    #    name = "Home"
+    #    weight = 1
         
     # Footer menu 1
     [[languages.en.menu.footer1]]
@@ -54,10 +54,11 @@ copyright = "© 2018 Copyright Text"
 [languages.ua]
     languageName = "Українська"
     # Main menu
-    [[languages.ua.menu.main]]
-        url = "/ua/"
-        name = "Домашня сторінка"
-        weight = 1
+    #[[languages.ua.menu.main]]
+    #    url = "/ua/"
+    #    name = "Домашня сторінка"
+    #    weight = 1
+
     # Footer menu 1
     [[languages.ua.menu.footer1]]
         url = "#"
