@@ -1,9 +1,3 @@
 [submodule "okmechak-github-io"]
 	path = okmechak-github-io
 	url = https://github.com/okmechak/okmechak.github.io.git
-[submodule "themes/minimal-mistakes"]
-	path = themes/minimal-mistakes
-	url = https://github.com/mikeymop/minimal-mistakes-hugo.git
-[submodule "themes/material-blog"]
-	path = themes/material-blog
-	url = https://github.com/Xzya/hugo-material-blog.git

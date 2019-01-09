@@ -1,7 +1,7 @@
 baseURL = "https://okmechak.github.io/"
 languageCode = "en-us"
 title = "DWNM"
-theme = "material-blog"
+theme = "ticky-theme"
 publishDir = "okmechak-github-io"
 
 #appear in the footer
