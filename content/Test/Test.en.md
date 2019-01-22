@@ -22,9 +22,10 @@ description: Перевірка в практиці різних властив�
 #url: full path to content from root
 #videos: og:video
 #can be a lot user defined which will be under params field
-authors: Олег Кмечак
+author: Олег Кмечак
 lang: ua  
 draft : true
+timeofreading: "10 хв"
 ---
 
 <!-- dependecie of TeX--->
