@@ -5,7 +5,7 @@ theme = "ticky-theme"
 publishDir = "okmechak.github.io"
 enableEmoji = true
 #appear in the footer
-copyright = "© 2018 Copyright Text"
+copyright = "Copyright © 2019 Oleg Kmechak  All Rights Reserved."
 
 # English
 [languages.en]
