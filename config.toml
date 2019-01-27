@@ -1,5 +1,6 @@
 baseURL = "https://okmechak.github.io/"
-languageCode = "en-us"
+languageCode = "ua"
+defaultContentLanguage = "ua"
 title = "DWNM"
 theme = "ticky-theme"
 publishDir = "okmechak.github.io"
