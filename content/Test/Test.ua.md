@@ -4,11 +4,12 @@ date: 2019-01-02
 modified: 2019-01-02
 #category: Різне
 tags: markdown, tex, shortcodes, теми
-slug: test
+slug: тестова-сторінка
 #additional urls
 aliases: test1, test2
 #audio:
-description: Перевірка в практиці різних властивостей Markdown, Hugo і метаданих.
+description: Перевірка в практиці різних властивостей Markdown, Hugo, метаданих. 
+  Також різних модулів підключених ззовні, таких як MatJax і інші можливості HTML, які використовуються на веб-сторінці. 
 #expiryDate:
 #headless:
 #images: used by internal templates
@@ -26,6 +27,7 @@ author: Олег Кмечак
 timeofreading: 10 хв
 lang: ua  
 draft : true
+cover_image: test_page.jpg
 ---
 
 <!-- dependecie of TeX--->
@@ -65,7 +67,7 @@ draft : true
 
 
 
-# Markdown
+## Markdown
 
 ###### [Першоджерело](https://daringfireball.net/projects/markdown/syntax) специфікації Markdown розмітки.
 
@@ -73,30 +75,16 @@ draft : true
 ---
 
 
-`# Це є <h1> таг`   
-`## Це є <h2> таг`   
-`###### Це є <h6> таг`   
+`# Це є h1 таг`   
+`## Це є  h2 таг`   
+`###### Це є h6 таг`   
 
-буде виглядати так:
-
-# Це є `<h1>` таг
-## Це є `<h2>` таг
-###### Це є `<h6>` таг
-
-`Також таг <h1> може бути заданим наступним чином:`  
-`Це є H1 таг`  
+Також таг h1 і р2 можуть бути заданими наступним чином:  
+`Це є h1 таг`  
 `=============`  
-
-Це є H1 таг
-=============
-
-і H2 таг
 
 `Це є H2 таг`  
 `------------`  
-
-Це є H2 таг
-------------
 
 
 Будь яка кількість "-"/"=" буде працювати.
@@ -360,7 +348,7 @@ enableEmoji = true
 
 
 
-# Математичні формули
+## Математичні формули
 ---
 
 [Хороша стаття](http://www.latkin.org/blog/2016/08/07/better-tex-math-typesetting-in-hugo/) про підключення TeX в HUGO, що власне використовується і на цьому сайті.  
@@ -373,12 +361,12 @@ enableEmoji = true
 
 
 
-# Shortcodes
+## Shortcodes
 ---
 [Документація](https://gohugo.io/templates/shortcode-templates/)
 ТУДУ: описати
 
-# Візуальні Теми
+## Візуальні Теми
 ---
 
 [Документація](https://gohugo.io/themes/)
