@@ -6,13 +6,9 @@
     {{ end }}
 
     {{ $linksCols := .Scratch.Get "linksCols" }}
-    {{ $contentCols := (sub 12 $linksCols) }}
-    <div class="col s12 l{{ $contentCols }}">
-        {{ partial "footer-content" . }}
-    </div>
 
     {{ if .Site.Params.footer_menus }}
-        <div class="col s12 l{{ sub $linksCols 2 }} offset-l2">
+        <div class="col s12 l{{ sub $linksCols 2 }} offset-l0">
             <div class="row">
                 {{ $menus := .Site.Menus }}
                 {{ $colWidth := math.Floor (div 12 (len .Site.Params.footer_menus)) }}

@@ -2,8 +2,22 @@
 
 <p class="article-meta">
     <div class="article-meta-container">
-        <div class="article-meta-author-name">{{ .Params.author }}</div>
-        <div class="article-meta-description">{{ .Params.description }}</div>
+        <!--<div class="article-meta-author-name">{{ .Params.author }}</div>
+        <br>-->
+        {{ if .Params.description }}
+        <div class="article-meta-description"> {{ .Params.description }}</div>
+        <br>
+        {{end}}
+        {{ if .Params.timeofreading }}
+        <div class="article-meta-description">Час читання: {{ .Params.timeofreading }}</div>
+        {{end}}
     </div>
-    <span class="article-meta-published-at grey-text text-darken-1">{{ .Date.Format $dateFormat }}</span>
+    
+    {{ if .Params.update }}
+        <span class="article-meta-published-at grey-text text-darken-1">Оновлено: {{ dateFormat $dateFormat .Params.update}}</span>
+    {{else}}
+        {{ if .Params.date }}
+            <span class="article-meta-published-at grey-text text-darken-1">Створено: {{ dateFormat $dateFormat .Params.date }}</span>
+        {{end}}
+    {{end}}
 </p>
