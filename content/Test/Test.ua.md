@@ -4,7 +4,7 @@ date: 2019-01-02
 modified: 2019-01-02
 #category: Різне
 tags: markdown, tex, shortcodes, теми
-slug: тестова-сторінка
+slug: testova-storinka
 #additional urls
 aliases: test1, test2
 #audio:
