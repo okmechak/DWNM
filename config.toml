@@ -1,43 +1,91 @@
 baseURL = "https://okmechak.github.io/"
-languageCode = "ua"
-defaultContentLanguage = "ua"
+#languageCode = "uk-UA"
+languageCode = "en-us"
+#defaultContentLanguage = "uk-UA"
 title = "DWNM"
-theme = "ticky-theme"
+theme = "blackburn"
 publishDir = "okmechak.github.io"
 enableEmoji = true
 #appear in the footer
-copyright = "Copyright © 2019 Oleg Kmechak  All Rights Reserved."
+copyright = "Авторське право © 2019 Олег Кмечак. Всі права захищені."
 
-# English
-[languages.en]
-    languageName = "English"
-[languages.ua]
-    languageName = "Українська"
-
-    # Footer menu 1
-    [[languages.ua.params.footer_menus]]
-        name = ""
-        menu = "links"
-
-    [[languages.ua.menu.links]]
-        url = "https://github.com/okmechak"
-        name = "GitHub"
-        weight = 1
-
-    [[languages.ua.menu.links]]
-        url = "https://www.linkedin.com/in/oleg-kmechak/"
-        name = "Linkedin"
-        weight = 2
-
-    [[languages.ua.menu.links]]
-        url = "https://www.youtube.com/channel/UCRmxGli1cPA6q6-I2W_IJeA"
-        name = "YouTube"
-        weight = 3
-    
-    [[languages.ua.menu.links]]
-        url = "https://soundcloud.com/rain_must_fall"
-        name = "SoundCloud"
-        weight = 4
-
+disqusShortname = "olegkmechak"
+sectionPagesMenu = "main"
+buildDrafts = "true"    
 
 [params]
+    subtitle = "Do We Need Math"
+    brand = "DWNM"
+    googleAnalytics = "Your Google Analytics tracking ID"
+    disqus = "Your Disqus shortname"
+    # CSS name for highlight.js
+    highlightjs = "androidstudio"
+    highlightjs_extra_languages = ["yaml"]
+    dateFormat = "02 Jan 2006, 15:04"
+    # Include any custom CSS and/or JS files
+    # (relative to /static folder)
+    custom_css = ["css/my.css"]
+    custom_js = ["js/my.js"]
+
+[params.piwikAnalytics]
+    siteid = 2
+    piwikroot = "//analytics.example.com/"
+
+[menu]
+    # Shown in the side menu.
+    [[menu.main]]
+        name = "Домашня сторінка"
+        pre = "<i class='fa fa-home fa-fw'></i>"
+        weight = 1
+        identifier = "home"
+        url = "/"
+    [[menu.main]]
+        name = "Публікації"
+        pre = "<i class='fa fa-list fa-fw'></i>"
+        weight = 2
+        identifier = "posts"
+        url = "/posts/"
+    [[menu.main]]
+        name = "Публікації"
+        pre = "<i class='fa fa-list fa-fw'></i>"
+        weight = 2
+        identifier = "compphysics"
+        url = "/computational-physics/"
+    [[menu.main]]
+        name = "Теги"
+        pre = "<i class='fa fa-tag fa-fw'></i>"
+        weight = 2.6
+        identifier = "tags"
+        url = "/tags/"
+    [[menu.main]]
+        name = "Про мене і веб-сайт"
+        pre = "<i class='fa fa-user fa-fw'></i>"
+        weight = 3
+        identifier = "about"
+        url = "/about/"
+    [[menu.main]]
+        name = "Контакти"
+        pre = "<i class='fa fa-phone fa-fw'></i>"
+        weight = 4
+        url = "/contact/"
+
+[social]
+    # Link your social networking accounts to the side menu
+    # by entering your username or ID.
+
+    # SNS microblogging
+    #facebook = "profile.php?id=100005110871470"
+
+    # SNS photo/video sharing
+    #instagram = "4rv_run"
+    youtube = "OlegFedyna"
+
+    # SNS career oriented
+    #linkedin = "oleg-kmechak"
+
+    # Techie
+    github = "okmechak"
+    stackoverflow = "4437603/oleg-kmechak"
+
+    # Music
+    soundcloud = "rain_must_fall"
